@@ -5,6 +5,6 @@ class Dog
   @@all = []
   def initialize(name)
     @name = name
-    @@all << slef
+    @@all << self
   end
 end
