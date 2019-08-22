@@ -12,7 +12,7 @@ class Dog
     @@all
   end
 
-  def print_all(n)
+  def self.print_all(n)
     all.each do |n|
       puts "n"
     end
